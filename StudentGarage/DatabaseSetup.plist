@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   DatabaseSetup.plist
+   StudentGarage
+
+   Created by student on 9/20/24.
+   Copyright (c) 2024 ___ORGANIZATIONNAME___. All rights reserved.
+-->
+<plist version="1.0">
+    <array>
+        <dict>
+            <key>service</key>
+            <string>Oil Change</string>
+            <key>day</key>
+            <string>Monday</string>
+            <key>time</key>
+            <string>Morning</string>
+            <key>technician</key>
+            <string>John Doe</string>
+            <key>duration</key>
+            <string>30 minutes</string>
+            <key>cost</key>
+            <string>$50</string>
+        </dict>
+        <dict>
+            <key>service</key>
+            <string>Tire Rotation</string>
+            <key>day</key>
+            <string>Tuesday</string>
+            <key>time</key>
+            <string>Afternoon</string>
+            <key>technician</key>
+            <string>Jane Smith</string>
+            <key>duration</key>
+            <string>45 minutes</string>
+            <key>cost</key>
+            <string>$40</string>
+        </dict>
+        <!-- Add more booked services here -->
+    </array>
+</plist>
